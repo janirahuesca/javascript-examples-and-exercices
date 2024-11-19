@@ -8,7 +8,7 @@ let resta = numero1 - numero2;
 let multiplicacion = numero1 * numero2;
 let division = numero1 / numero2;
 
-// Mostrar la información de mi libro favorito:
+// Mostrar la información:
 document.write("RESULTADO CALCULADORA CON OPERACIONES BÁSICAS:" + "<br>");
 document.write("Suma: El resultado de sumar " + numero1 + " y " + numero2 + " es " + suma + "<br>");
 document.write("Resta: El resultado de restar " + numero1 + " y " + numero2 + " es " + resta + "<br>");

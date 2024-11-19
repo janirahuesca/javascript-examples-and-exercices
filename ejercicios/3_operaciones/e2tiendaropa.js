@@ -10,7 +10,7 @@ let descuentoCliente2 = totalCliente2 * 0.20;
 let totalCliente2ConDescuento = totalCliente2 - descuentoCliente2;
 let totalCliente3 = camiseta + (sudadera * 2) + (gorra * 3);
 
-// Mostrar la información de mi libro favorito:
+// Mostrar la información:
 document.write("TOTAL COMPRAS DE LOS CLIENTES:" + "<br>");
 document.write("Cliente 1: El total de la compra del cliente 1 es de " + totalCliente1 + "euros" + "<br>");
 document.write("Cliente 1: El total de la compra del cliente 2 es de " + totalCliente2 + "euros" + "<br>");

@@ -30,7 +30,7 @@ let areaGranito = areaCocina + areaBano;
 let superficieLoza = 0.4;
 let numeroLozasGranito = areaGranito / superficieLoza;
 
-// Mostrar la información de mi libro favorito:
+// Mostrar la información:
 document.write("TOTALES:" + "<br>");
 document.write("Ejercicio 1: El total del area de cada estancia es:" + "<br>" +
     "- Habitación 1: " + areaHabitacion1 + " metros cuadrados" + "<br>" +
