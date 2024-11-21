@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de precio total</title>
+</head>
+
+<body>
+
+    <h1>PRECIO DE UN PRODUCTO</h1>
+
+    <form id="formularioproductos">
+        <label>Nombre:</label>
+        <input type="text" id="nombre">
+        <br><br>
+
+        <label>Precio por unidad:</label>
+        <input type="number" id="precio">
+        <br><br>
+
+        <label>Cantidad:</label>
+        <input type="number" id="cantidad">
+        <br><br>
+
+        <label>Descuento (%):</label>
+        <input type="number" id="descuento">
+        <br><br>
+
+        <label>IVA (%):</label>
+        <input type="number" id="iva">
+        <br><br>
+    </form>
+
+    <button type="button" onclick="calcularPrecioTotal()">Calcular Precio Total</button>
+
+    <p id="resultado"></p>
+
+    <script src="e3productos.js"></script>
+
+</html>
