@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta de la Fortuna</title>
+</head>
+
+<body>
+
+    <h1>RULETA DE LA FORTUNA DE LOS COLORES</h1>
+
+    <form id="formularioruleta">
+        <label>Elige tu color favorito:</label>
+        <select id="color" required>
+            <option value="">Seleccione...</option>
+            <option value="red">Rojo</option>
+            <option value="green">Verde</option>
+            <option value="blue">Azul</option>
+            <option value="yellow">Amarillo</option>
+            <option value="purple">Morado</option>
+        </select>
+        <br><br>
+
+        <button type="button" onclick="mostrarMensaje()">REVELAR MENSAJE</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script src="e1ruletacolores.js"></script>
+
+</html>
