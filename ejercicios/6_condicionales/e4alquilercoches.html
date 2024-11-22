@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Coches</title>
+</head>
+
+<body>
+
+    <h1>ALQUILER DE COCHES</h1>
+
+    <form id="formularioalquiler">
+        <label>Tipo de coche:</label>
+        <select id="tipocoche" required>
+            <option value="">Seleccione...</option>
+            <option value="economico">Económico</option>
+            <option value="familiar">Familiar</option>
+            <option value="lujo">Lujo</option>
+        </select>
+        <br><br>
+
+        <label>Número de días:</label>
+        <input type="number" id="numdias" min="1" max="15" required>
+        <br><br>
+
+        <label>¿Desea incluir un conductor adicional?</label>
+        <input type = "checkbox" id="conductoradicional";>
+        <br><br>
+
+        <button type="button" onclick="calcularPrecioValidar()">Calcular Precio</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script src="e4alquilercoches.js"></script>
+
+</html>
