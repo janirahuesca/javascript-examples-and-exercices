@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas de Hotel</title>
+</head>
+
+<body>
+
+    <h1>RESERVA DE HOTEL</h1>
+
+    <form id="formulariohotel">
+        <label>Tipo habitación:</label>
+        <select id="tipohabitacion" required>
+            <option value="">Seleccione...</option>
+            <option value="familiar">Familiar</option>
+            <option value="doble">Doble</option>
+            <option value="individual">Individual</option>
+        </select>
+        <br><br>
+
+        <label>Número de noches:</label>
+        <input type="number" id="numnoches" min="1" required>
+        <br><br>
+
+        <button type="button" onclick="calcularPrecioValidar()">Calcular Precio</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script src="e3reservahotel.js"></script>
+
+</html>
