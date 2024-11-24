@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto de Viaje</title>
+</head>
+
+<body>
+
+    <h1>PRESUPUESTO DE VIAJE</h1>
+
+    <form id="formularioviaje">
+        <label for="destino">Elige tu destino:</label>
+        <select id="destino" required>
+            <option value="">Seleccione...</option>
+            <option value="nuevayork">Nueva York</option>
+            <option value="mallorca">Mallorca</option>
+            <option value="paris">París</option>
+            <option value="londres">Londres</option>
+        </select>
+        <br><br>
+
+        <label for="dias">Número de días (1-30):</label>
+        <input type="number" id="dias" required min="1" max="30">
+        <br><br>
+
+        <label for="personas">Número de personas (1-8):</label>
+        <input type="number" id="personas" required min="1" max="8">
+        <br><br>
+
+        <button type="button" onclick="calcularPresupuestoValidacion()">CALCULAR PRESUPUESTO</button>
+    </form>
+
+    <p id="mensajeresultado"></p>
+
+    <script src="e3presupuestoviaje.js"></script>
+
+</body>
+
+</html>
