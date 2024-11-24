@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puntuación Equipo</title>
+</head>
+
+<body>
+
+    <h1>PUNTUACIÓN EQUIPO</h1>
+
+    <form id="formulariopuntuacion">
+        <label>Partidos ganados:</label>
+        <input type="number" id="partidosganados" required min="0" max="10">
+        <label>Partidos perdidos:</label>
+        <input type="number" id="partidosperdidos" required min="0" max="10">
+        <label>Partidos empatados:</label>
+        <input type="number" id="partidosempatados" required min="0" max="10">
+
+        <br><br>
+
+        <button type="button" onclick="puntuacionFinalValidacion()">ENVIAR</button>
+    </form>
+
+    <p id="mensajeresultados"></p>
+
+    <script src="e1puntuacionequipo.js"></script>
+
+</html>
