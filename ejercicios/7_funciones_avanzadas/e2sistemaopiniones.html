@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Opiniones</title>
+</head>
+
+<body>
+
+    <h1>SISTEMA DE OPINIONES</h1>
+
+    <form id="formularioopiniones">
+        <label>¿Cómo calificarías la atención recibida?</label>
+        <select id="atencion" required>
+            <option value="">Seleccione...</option>
+            <option value="1">Malo</option>
+            <option value="2">Regular</option>
+            <option value="3">Bueno</option>
+            <option value="4">Muy bueno</option>
+        </select>
+        <br><br>
+
+        <label>¿Cómo calificarías la calidad del servicio?</label>
+        <select id="servicio" required>
+            <option value="">Seleccione...</option>
+            <option value="1">Malo</option>
+            <option value="2">Regular</option>
+            <option value="3">Bueno</option>
+            <option value="4">Muy bueno</option>
+        </select>
+        <br><br>
+
+        <label>¿Cómo calificarías la relación calidad-precio?</label>
+        <select id="calidadprecio" required>
+            <option value="">Seleccione...</option>
+            <option value="1">Malo</option>
+            <option value="2">Regular</option>
+            <option value="3">Bueno</option>
+            <option value="4">Muy bueno</option>
+        </select>
+        <br><br>
+
+        <button type="button" onclick="puntuacionFinalValidacion()">ENVIAR</button>
+    </form>
+
+    <p id="mensajeresultado"></p>
+
+    <script src="e2sistemaopiniones.js"></script>
+
+</body>
+
+</html>
